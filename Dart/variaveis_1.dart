@@ -4,14 +4,17 @@ void main() {
   int a = 10;
   int b = 20;
   int c = a + b;
+  int d = 0;
 
   print(a);
   print(b);
   print(c);
+  print(d);
 
   print("valor de a: $a");
   print("valor de b: $b");
   print("valor de c: $c");
+  print("valor de d: $d");
 
   print("O dobro de a é: ${a * 2}");
   print("O dobro de b é: ${b * 2}");
